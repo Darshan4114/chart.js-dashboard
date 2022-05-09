@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,gBAAgB;EACvB,MAAM,EAAE,cAAc;EACtB,MAAM,EAAE,QAAQ;EAChB,eAAe,EAAE,QAAQ;EACzB,aAAa,EAAE,GAAG;CAInB;;AATD,AAME,MANI,CAMJ,EAAE,CAAC;EACD,MAAM,EAAE,cAAc;CACvB",
+    "sources": [
+        "../scss/HazardTable.module.scss"
+    ],
+    "names": [],
+    "file": "HazardTable.module.css"
+}

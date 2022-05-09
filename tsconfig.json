@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,9 +14,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "baseUrl": "src",
+    "paths": {
+      "crud-lite/*": ["firebase/crud-lite/*"],
+      "crud/*": ["firebase/crud/*"],
+      "comp/*": ["components/*"],
+      "hook/*": ["components/hooks/*"],
+      "util/*": ["utils/*"],
+      "form/*": ["components/forms/*"],
+      "fire/*": ["firebase/*"],
+      "styl/*": ["styles/css/*"]
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

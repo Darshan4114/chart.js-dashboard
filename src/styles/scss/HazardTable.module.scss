@@ -1,0 +1,10 @@
+.table {
+  width: calc(100% - 2em);
+  border: 1px solid #777;
+  margin: 2em auto;
+  border-collapse: collapse;
+  border-radius: 1em;
+  td {
+    border: 1px solid #777;
+  }
+}

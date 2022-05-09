@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 75rem;
+  margin: -2em auto 1em;
+  img.logo {
+    height: 9rem;
+    width: 9rem;
+  }
+  nav {
+    padding: 0.75em;
+    display: flex;
+    // justify-content: flex-end;
+    .button {
+      // margin: 0 1em;
+      // padding: 0.25em 0.5em;
+      background: #fff;
+      font-size: 1.1rem;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 0.25em;
+    }
+    .button:last-of-type {
+      margin-right: 0;
+    }
+  }
+  .upload {
+    height: 2rem;
+    width: 2rem;
+  }
+}

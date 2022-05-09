@@ -1,0 +1,33 @@
+.container {
+  width: 69rem;
+  overflow: hidden;
+  margin: 0 auto;
+  main {
+    display: grid;
+    gap: 1em;
+  }
+
+  @media screen and (min-width: 1080px) {
+    main {
+      grid-template-columns: 15rem auto;
+    }
+  }
+}
+.chartList {
+  margin: -3rem auto 3rem;
+  display: grid;
+  gap: 1em;
+  @media screen and (min-width: 1080px) {
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 58rem;
+  }
+}
+.chart {
+  height: 17rem;
+  width: 23rem;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
