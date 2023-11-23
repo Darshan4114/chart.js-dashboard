@@ -5,6 +5,7 @@ This is a small project demonstrating the integration of chart.js into a dashboa
 3. Filters
 
 ## For more projects and detailed case studies
-My web developer portfolio. Hosted on https://darshandhabale.com
+![My web developer portfolio.](./public/website-thumbnail.png)
+[My web developer portfolio.](https://darshandhabale.com)
 
 #webdeveloperportfolio #neobrutalism #handdrawn
